@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TesteCarros",
+            "request": "launch",
+            "mainClass": "Heranca.DesafioHeranca.TesteCarros",
+            "projectName": "AulasCurso_ee71fad3"
+        },
+        {
+            "type": "java",
             "name": "Launch Clienteteste",
             "request": "launch",
             "mainClass": "desafio.composicao.oo.Clienteteste",
