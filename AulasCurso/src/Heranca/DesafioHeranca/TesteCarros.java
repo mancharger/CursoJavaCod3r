@@ -8,9 +8,13 @@ public class TesteCarros {
 
         ferrari.acelerar();
         ferrari.acelerar();
+        ferrari.acelerar();
+        ferrari.frear();
 
         civic.acelerar();
         civic.acelerar();
+        civic.acelerar();
+        civic.frear();
 
         ferrari.mostrarVelocidadeAtual();
 

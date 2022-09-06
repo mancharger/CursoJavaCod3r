@@ -9,7 +9,7 @@ public class Ferrari extends Carro {
 
     @Override
     void frear(){
-        if(velocidadeAtual > 15.0){
+        if(velocidadeAtual >= 15.0){
             velocidadeAtual -= 15.00;
         } else {
 
