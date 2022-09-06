@@ -4,11 +4,16 @@ public class Ferrari extends Carro {
     
     Ferrari(Double velocidadeMaxima){
         super(velocidadeMaxima);
+        delta = 15.0;
     }
 
     @Override
     void acelerar(){
-        velocidadeAtual += 15.00;
+        if(velocidadeAtual + delta > VELOCIDADE_MAXIMA){
+            velocidadeAtual = VELOCIDADE_MAXIMA;
+        } else {
+            velocidadeAtual += delta;
+        }
     }
 
     @Override
