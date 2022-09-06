@@ -12,7 +12,7 @@ public class Ferrari extends Carro {
         if(velocidadeAtual >= 15.0){
             velocidadeAtual -= 15.00;
         } else {
-
+            velocidadeAtual = 0.0;
         }
     }
 }

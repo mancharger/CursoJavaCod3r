@@ -12,7 +12,7 @@ public class Carro {
         if(velocidadeAtual >= 5.0){
             velocidadeAtual -= 5.00;
         } else {
-
+            velocidadeAtual = 0.0;
         }
     }
 
