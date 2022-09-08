@@ -1,37 +1,46 @@
 package Heranca.DesafioHeranca;
 
-public class Ferrari extends Carro implements Esportivo{
+public class Ferrari extends Carro implements Esportivo, Luxo{
     
+    private boolean ligarTurbo = false;
+    private boolean ligarAr = false;
+
     Ferrari(Double velocidadeMaxima){
         super(velocidadeMaxima);
-        delta = 15.0;
+        setDelta(15.0);
+    }
+
+    @Override
+    public void ligarAr() {
+        ligarAr = true;
+    }
+
+    @Override
+    public void desligarAr() {
+        ligarAr = false;
     }
 
     @Override
     public void ligarTurbo() {
-        delta = 35.0;
+        ligarTurbo = true;
     }
 
     @Override
     public void desligarTurbo() {
-        delta = 15.0;
+        ligarTurbo = false;
     }
 
     @Override
-    void acelerar(){
-        if(velocidadeAtual + delta > VELOCIDADE_MAXIMA){
-            velocidadeAtual = VELOCIDADE_MAXIMA;
+    public Double getDelta() {
+        if(ligarTurbo && !ligarAr){
+            return 35.0;
+        } else if(ligarTurbo && ligarAr){
+            return 30.0;
+        } else if(ligarTurbo && !ligarAr){
+            return 20.0;
         } else {
-            velocidadeAtual += delta;
+            return 15.0;
         }
     }
 
-    @Override
-    void frear(){
-        if(velocidadeAtual >= 15.0){
-            velocidadeAtual -= 15.00;
-        } else {
-            velocidadeAtual = 0.0;
-        }
-    }
 }

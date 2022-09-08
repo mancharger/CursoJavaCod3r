@@ -3,7 +3,7 @@ package Heranca.DesafioHeranca;
 public class Carro {
     final Double VELOCIDADE_MAXIMA;
     Double velocidadeAtual = 0.0;
-    Double delta = 5.0;
+    private Double delta = 5.0;
 
     Carro(Double velocidadeMaxima){
         VELOCIDADE_MAXIMA = velocidadeMaxima;
@@ -11,10 +11,10 @@ public class Carro {
     }
 
     void acelerar(){
-        if(velocidadeAtual + delta > VELOCIDADE_MAXIMA){
+        if(velocidadeAtual + getDelta() > VELOCIDADE_MAXIMA){
             velocidadeAtual = VELOCIDADE_MAXIMA;
         } else {
-            velocidadeAtual += delta;
+            velocidadeAtual += getDelta();
         }
     }
 
@@ -28,6 +28,14 @@ public class Carro {
 
     String mostrarVelocidadeAtual(){
         return "O Veiculo esta a " + velocidadeAtual  + "Km/h";
+    }
+
+    public Double getDelta() {
+        return delta;
+    }
+
+    public void setDelta(Double delta) {
+        this.delta = delta;
     }
 
 }
