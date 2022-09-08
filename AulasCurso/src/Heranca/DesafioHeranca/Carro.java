@@ -26,8 +26,8 @@ public class Carro {
         }
     }
 
-    void mostrarVelocidadeAtual(){
-        System.out.println("O Veiculo esta a " + velocidadeAtual  + "Km/h");
+    String mostrarVelocidadeAtual(){
+        return "O Veiculo esta a " + velocidadeAtual  + "Km/h";
     }
 
 }
