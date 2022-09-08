@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Jantar",
+            "request": "launch",
+            "mainClass": "Polimorfismo.Desafio.Jantar",
+            "projectName": "AulasCurso_ee71fad3"
+        },
+        {
+            "type": "java",
             "name": "Launch TesteCarros",
             "request": "launch",
             "mainClass": "Heranca.DesafioHeranca.TesteCarros",
