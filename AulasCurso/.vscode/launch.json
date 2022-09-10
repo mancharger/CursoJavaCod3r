@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PredicateComposicao",
+            "request": "launch",
+            "mainClass": "Lambdas.PredicateComposicao.PredicateComposicao",
+            "projectName": "AulasCurso_ee71fad3"
+        },
+        {
+            "type": "java",
             "name": "Launch Jantar",
             "request": "launch",
             "mainClass": "Polimorfismo.Desafio.Jantar",
