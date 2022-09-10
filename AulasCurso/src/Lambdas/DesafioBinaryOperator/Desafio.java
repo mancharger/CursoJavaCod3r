@@ -1,9 +1,6 @@
 package Lambdas.DesafioBinaryOperator;
 
 import java.util.function.Function;
-import java.util.function.UnaryOperator;
-
-import javax.imageio.event.IIOReadUpdateListener;
 
 public class Desafio {
     public static void main(String[] args) {
@@ -14,7 +11,7 @@ public class Desafio {
         Function <Double, Double> calculoImposto = num -> num >= 2500.00 ? num + (num * 0.085) : num;
         Function <Double, Double> frete = num -> num >= 3000.00 ? num + 100.0 : num + 50.0;
         Function <Double, Double> casasDecimais = num -> (Math.round(num*100.0)/100.0);
-        Function <Double, String> formataPreco = num -> "Preco final: R$" + num;
+        Function <Double, String> formataPreco = num -> ("Preco final: R$" + num).replace(".", ",");
 
 
         System.out.println(precoComDesconto.apply(p));
