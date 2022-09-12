@@ -25,7 +25,7 @@ public class CriandoStreams {
         outrasLangs.parallelStream().forEach(print);
 
         //Stream.generate(() -> "a").forEach(print); //gera as informações infinitamente sem ordenação
-        //Stream.iterate(0, n -> n + 1).forEach(println); //seed: valor inicial. Podemos passar uma função lambda para a iteração
+        Stream.iterate(0, n -> n + 1).forEach(println); //seed: valor inicial. Podemos passar uma função lambda para a iteração
 
     }    
 }
