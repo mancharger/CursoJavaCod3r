@@ -10,6 +10,6 @@ public class Testestream {
         List<String> listanomes = Arrays.asList("Franklin", "Eduardo", "Moreira", "Santos");
         
         Stream<String> streamNomes = listanomes.stream();
-        streamNomes.forEach(System.out::println);
+        streamNomes.forEach(System.out::println); 
     }
 }

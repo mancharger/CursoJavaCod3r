@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CriandoStreams",
+            "request": "launch",
+            "mainClass": "StreamsAPI.CriandoStreams",
+            "projectName": "AulasCurso_ee71fad3"
+        },
+        {
+            "type": "java",
             "name": "Launch Testestream",
             "request": "launch",
             "mainClass": "StreamsAPI.Testestream",
