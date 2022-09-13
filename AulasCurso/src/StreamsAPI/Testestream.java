@@ -11,5 +11,6 @@ public class Testestream {
         
         Stream<String> streamNomes = listanomes.stream();
         streamNomes.forEach(System.out::println); 
+        streamNomes.forEach(System.out::print); 
     }
 }
