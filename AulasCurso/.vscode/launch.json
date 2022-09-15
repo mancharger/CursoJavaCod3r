@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DesafioFilter",
+            "request": "launch",
+            "mainClass": "StreamsAPI.FIlter.DesafioFilter.DesafioFilter",
+            "projectName": "AulasCurso_ee71fad3"
+        },
+        {
+            "type": "java",
             "name": "Launch Filter",
             "request": "launch",
             "mainClass": "StreamsAPI.FIlter.Filter",
