@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Reduce",
+            "request": "launch",
+            "mainClass": "StreamsAPI.Reduce.Reduce",
+            "projectName": "AulasCurso_ee71fad3"
+        },
+        {
+            "type": "java",
             "name": "Launch DesafioFilter",
             "request": "launch",
             "mainClass": "StreamsAPI.FIlter.DesafioFilter.DesafioFilter",
