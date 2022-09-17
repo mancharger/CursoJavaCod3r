@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Reduce2",
+            "request": "launch",
+            "mainClass": "StreamsAPI.Reduce.Reduce2",
+            "projectName": "AulasCurso_ee71fad3"
+        },
+        {
+            "type": "java",
             "name": "Launch Reduce",
             "request": "launch",
             "mainClass": "StreamsAPI.Reduce.Reduce",
