@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Reduce3",
+            "request": "launch",
+            "mainClass": "StreamsAPI.Reduce.Reduce3",
+            "projectName": "AulasCurso_ee71fad3"
+        },
+        {
+            "type": "java",
+            "name": "Launch MediaTeste",
+            "request": "launch",
+            "mainClass": "StreamsAPI.Reduce.MediaTeste",
+            "projectName": "AulasCurso_ee71fad3"
+        },
+        {
+            "type": "java",
             "name": "Launch Reduce2",
             "request": "launch",
             "mainClass": "StreamsAPI.Reduce.Reduce2",
