@@ -7,8 +7,6 @@ import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
-import StreamsAPI.FIlter.Filter;
-
 public class Reduce3 {
     public static void main(String[] args) {
         
