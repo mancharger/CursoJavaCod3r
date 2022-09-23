@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch Match",
             "request": "launch",
+            "mainClass": "StreamsAPI.Match.Match",
+            "projectName": "AulasCurso_ee71fad3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Match",
+            "request": "launch",
             "mainClass": "StreamsAPI.Match",
             "projectName": "AulasCurso_ee71fad3"
         },

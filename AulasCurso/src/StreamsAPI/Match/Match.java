@@ -1,4 +1,4 @@
-package StreamsAPI;
+package StreamsAPI.Match;
 
 import java.util.Arrays;
 import java.util.List;
@@ -17,7 +17,11 @@ public class Match {
         List<Aluno> alunos = Arrays.asList(a1, a2, a3, a4);
 
         Predicate<Aluno> aprovado = a -> a.nota >= 7;
+        Predicate<Aluno> reprovado = aprovado.negate();
 
         System.out.println(alunos.stream().allMatch(aprovado));
+        System.out.println(alunos.stream().anyMatch(aprovado));
+        System.out.println(alunos.stream().noneMatch(aprovado));
+        System.out.println(alunos.stream().noneMatch(reprovado));
     }
 }
