@@ -3,7 +3,7 @@ package StreamsAPI.Reduce;
 public class Aluno {
     
     final String nome;
-    final Double nota;
+    public final Double nota;
     final boolean bomComportamento;
         
     public Aluno(String nome, Double nota){
