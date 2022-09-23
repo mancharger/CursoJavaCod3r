@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Outros",
+            "request": "launch",
+            "mainClass": "StreamsAPI.Outros",
+            "projectName": "AulasCurso_ee71fad3"
+        },
+        {
+            "type": "java",
             "name": "Launch MinMax",
             "request": "launch",
             "mainClass": "StreamsAPI.Min_Max.MinMax",
