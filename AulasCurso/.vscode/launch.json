@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ChecadavsNaoChecada",
+            "request": "launch",
+            "mainClass": "Excecao.ChecadavsNaoChecada",
+            "projectName": "AulasCurso_ee71fad3"
+        },
+        {
+            "type": "java",
             "name": "Launch Basico",
             "request": "launch",
             "mainClass": "Excecao.Basico",
