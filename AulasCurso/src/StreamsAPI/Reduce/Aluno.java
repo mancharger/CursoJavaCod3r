@@ -4,7 +4,7 @@ public class Aluno {
     
     public final String nome;
     public final Double nota;
-    final boolean bomComportamento;
+    public final boolean bomComportamento;
         
     public Aluno(String nome, Double nota){
         this(nome, nota, true);
