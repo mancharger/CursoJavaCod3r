@@ -9,7 +9,7 @@ public class StringVaziaException extends RuntimeException {
     }
 
     public String getMessage(){
-        return String.format("O atributo %s está negativo", nomeDoAtributo);
+        return String.format("O atributo %s está vazio", nomeDoAtributo);
     }
 
 

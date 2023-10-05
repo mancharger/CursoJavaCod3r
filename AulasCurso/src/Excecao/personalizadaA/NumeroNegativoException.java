@@ -12,6 +12,6 @@ public class NumeroNegativoException extends RuntimeException {
         return String.format("O atributo %s está negativo", nomeDoAtributo);
     }
 
-
+    
 
 }
