@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TesteValidacoes",
+            "request": "launch",
+            "mainClass": "Excecao.personalizadaA.TesteValidacoes",
+            "projectName": "AulasCurso_ee71fad3"
+        },
+        {
+            "type": "java",
             "name": "Launch ChecadavsNaoChecada",
             "request": "launch",
             "mainClass": "Excecao.ChecadavsNaoChecada",

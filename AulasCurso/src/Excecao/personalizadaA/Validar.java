@@ -17,7 +17,7 @@ public class Validar {
             }
 
             if (aluno.nota < 0 || aluno.nota > 10) {
-                throw new NumeroForaIntervalo("nota");
+                throw new NumeroForaIntervaloException("nota");
             }
         }
     
