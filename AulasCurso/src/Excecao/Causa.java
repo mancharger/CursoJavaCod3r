@@ -21,7 +21,7 @@ public class Causa {
     }
 
     static void metodoB(Aluno aluno){
-        if (aluno == aluno) {
+        if (aluno == null) {
             throw new NullPointerException("Aluno está Nulo!");
         }
         System.out.println(aluno.nome);
