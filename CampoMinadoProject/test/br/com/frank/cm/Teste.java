@@ -15,6 +15,11 @@ public class Teste {
         assertEquals(2, a);
     }
 
-    
+    @Test
+    public void testando2(){
+        int x = 2 + 10 - 9;
+
+        assertEquals(3, x);
+    }
 
 }
