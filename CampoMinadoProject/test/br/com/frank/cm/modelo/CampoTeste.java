@@ -1,0 +1,25 @@
+package br.com.frank.cm.modelo;
+
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+
+public class CampoTeste {
+    
+    private Campo campo;
+
+    @BeforeEach
+    void iniciarCampo(){
+        campo = new Campo(3, 3);
+    }
+
+    @Test
+    public void testeVizinhoRealDistancia1(){
+        Campo vizinho = new Campo(3, 2);
+
+        boolean resultado = campo.adicionarVizinho(vizinho);
+
+        assertTrue(resultado);
+    }
+}
