@@ -19,7 +19,7 @@ public class CampoTeste {
         Campo vizinho = new Campo(3, 2);
 
         boolean resultado = campo.adicionarVizinho(vizinho);
-
+        //problema no campo teste
         assertTrue(resultado);
     }
 }
