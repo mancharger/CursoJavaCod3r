@@ -97,10 +97,29 @@ public class CampoTeste {
         assertTrue(campo.isMarcado());
     }
 
-     @Test
+    @Test
     void testeAlternarMarcacaoDuasChamadas(){
         campo.alternarMarcacao();
         campo.alternarMarcacao();
         assertFalse(campo.isMarcado());
     }
+
+    @Test
+    void testeAbirNaoMinadoNaoMarcado(){
+        assertTrue(campo.abrir());
+    }
+
+    @Test
+    void testeAbirNaoMinadoMarcado(){
+        campo.alternarMarcacao();
+        assertFalse(campo.abrir());
+    }
+    
+    @Test
+    void testeAbrirMinadoMarcado(){
+        campo.alternarMarcacao();
+        campo.minar();
+        assertFalse(campo.abrir());
+    }
+
 }
