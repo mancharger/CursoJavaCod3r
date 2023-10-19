@@ -58,8 +58,11 @@ public class Tabuleiro {
 
     public void reiniciar(){
         campos.stream().forEach(c -> c.reiniciar());
+        sortearMinas();
     }
 
-
+    public String toString(){
+        
+    }
 
 }
