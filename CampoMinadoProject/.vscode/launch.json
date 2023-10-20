@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Aplicacao",
+            "request": "launch",
+            "mainClass": "br.com.frank.cm.Aplicacao",
+            "projectName": "CampoMinadoProject_409c2932"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
