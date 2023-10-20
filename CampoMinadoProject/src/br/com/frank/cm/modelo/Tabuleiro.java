@@ -23,13 +23,13 @@ public class Tabuleiro {
     }
 
     public void abrir(int linha, int coluna){
-        campos.parallelStream().filter(c -> c.getLinha() == linhas && c.getColuna() == coluna)
+        campos.parallelStream().filter(c -> c.getLinha() == linha && c.getColuna() == coluna)
         .findFirst()
         .ifPresent(c -> c.abrir());
     }
     
     public void alternarMarcacao(int linha, int coluna){
-        campos.parallelStream().filter(c -> c.getLinha() == linhas && c.getColuna() == coluna)
+        campos.parallelStream().filter(c -> c.getLinha() == linha && c.getColuna() == coluna)
         .findFirst()
         .ifPresent(c -> c.alternarMarcacao());
     }
