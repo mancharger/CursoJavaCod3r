@@ -62,7 +62,7 @@ public class Tabuleiro {
     }
 
     public String toString(){
-        
+        return "";
     }
 
 }
