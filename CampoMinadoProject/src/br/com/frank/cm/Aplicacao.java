@@ -5,7 +5,7 @@ import br.com.frank.cm.visao.TabuleiroConsole;
 
 public class Aplicacao {
     public static void main(String[] args) {
-        
+        //Projeto aos moldes da organização MVC
         Tabuleiro tabuleiro = new Tabuleiro(6, 6, 6);
         new TabuleiroConsole(tabuleiro);
 
