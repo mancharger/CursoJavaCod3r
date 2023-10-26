@@ -10,7 +10,7 @@ import br.com.frank.cm.excecoes.ExplosaoException;
 public class CampoTeste {
     
     private Campo campo;
-
+    //testes
     @BeforeEach
     void iniciarCampo(){
         campo = new Campo(3, 3);
