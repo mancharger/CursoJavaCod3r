@@ -11,6 +11,7 @@ public class CampoTeste {
     
     private Campo campo;
     //testes
+    //utilizando JUnit
     @BeforeEach
     void iniciarCampo(){
         campo = new Campo(3, 3);
